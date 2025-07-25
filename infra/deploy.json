@@ -1,0 +1,16 @@
+{
+  "name": "ms-saudacoes-aleatorias",
+  "regions": [
+    "washington-dc"
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "port": 8000
+    }
+  ],
+  "docker": {
+    "image": "laydev/ms-saudacoes-aleatorias"
+  },
+  "instance_type": "nano"
+}
