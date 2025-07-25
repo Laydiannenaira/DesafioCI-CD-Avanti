@@ -41,9 +41,9 @@ func main() {
 		api.GET("/saudacoes/aleatorio", handlers.GetRandomGreeting)
 	}
 
-	// Inicia o servidor na porta 8080
-	// Você pode acessar em http://localhost:8080
-	if err := router.Run(":8080"); err != nil {
+	// Inicia o servidor na porta 8000
+	// Você pode acessar em http://localhost:8000
+	if err := router.Run(":8000"); err != nil {
 		log.Fatalf("failed to run server: %v", err)
 	}
 }
